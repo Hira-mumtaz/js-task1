@@ -54,9 +54,12 @@ console.log(multi(5, 5))
 let box = document.getElementsByClassName('box1')[0]
 let h1 = document.getElementsByTagName('h1')[0]
 
-h1.addEventListener("click" , function(){
-    box.style.backgroundColor='red'
+// h1.addEventListener("click" , function(){
+//     box.style.backgroundColor='red'
 
+// });
+
+h1.addEventListener("mouseover" , function(){
+h1.textContent = "mouse over action done"
 });
-
 
